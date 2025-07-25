@@ -1,8 +1,12 @@
 import './App.css'
+import DaisyNav from './components/DasiyNav/DaisyNav'
+import NavBar from './components/Navbar/NavBar'
 
 function App() {
   return (
     <>
+      <NavBar></NavBar>
+      <DaisyNav></DaisyNav>
       {/* batman logo */}
       <div className="avatar">
         <div className="w-24 rounded">
