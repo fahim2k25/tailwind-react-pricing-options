@@ -14,4 +14,9 @@ body {
         "ELSH" 0,
         "ELXP" 0;
     font-size: larger;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    width: 50%;
+
 }
