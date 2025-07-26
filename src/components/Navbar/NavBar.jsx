@@ -27,44 +27,30 @@ const NavBar = () => {
         },
         {
             id: 5,
-            name: "Blog",
-            path: "/blog"
-        },
-        {
-            id: 6,
-            name: "User Profile",
-            path: "/user/profile"
-        },
-        {
-            id: 7,
-            name: "Settings",
-            path: "/settings"
-        },
-        {
-            id: 8,
             name: "FAQ",
             path: "/faq"
         },
         {
-            id: 9,
+            id: 6,
             name: "Pricing",
             path: "/pricing"
         },
         {
-            id: 10,
+            id: 7,
             name: "Dashboard",
             path: "/dashboard"
         }
     ];
 
     return (
-        <nav>
+        <nav className="flex justify-between">
+            <h3 className='font-bold text-2xl'>BatNavBar</h3>
             <ul className='flex justify-evenly'>
                 {
                     urlData.map(route => <Link id={route.id} route={route}></Link>)
                 }
             </ul>
-
+            <button className='btn btn-lg'>Sign In</button>
         </nav>
     );
 };
