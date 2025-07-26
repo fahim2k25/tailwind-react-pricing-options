@@ -59,7 +59,7 @@ const NavBar = () => {
 
     return (
         <nav>
-            <ul className='flex'>
+            <ul className='flex justify-evenly'>
                 {
                     urlData.map(route => <Link id={route.id} route={route}></Link>)
                 }

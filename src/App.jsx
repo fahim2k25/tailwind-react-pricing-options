@@ -1,4 +1,5 @@
 import './App.css'
+import Batman from './components/Body/Batman'
 import DaisyNav from './components/DasiyNav/DaisyNav'
 import NavBar from './components/Navbar/NavBar'
 
@@ -7,13 +8,10 @@ function App() {
     <>
       <NavBar></NavBar>
       <DaisyNav></DaisyNav>
-      {/* batman logo */}
-      <div className="avatar">
-        <div className="w-24 rounded">
-          <img src="https://img.daisyui.com/images/profile/demo/batperson@192.webp" />
-        </div>
+      <div className='flex flex-col items-center my-5'>
+        <Batman></Batman>
       </div>
-      <h1 className='mt-3'>I am Batman</h1>
+
     </>
   )
 }
