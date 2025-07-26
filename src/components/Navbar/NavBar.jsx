@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from './Link';
+import { Menu } from 'lucide-react';
 
 
 const NavBar = () => {
@@ -44,7 +45,10 @@ const NavBar = () => {
 
     return (
         <nav className="flex justify-between">
-            <h3 className='font-bold text-2xl'>BatNavBar</h3>
+            <div className='flex gap-2 items-center'>
+                <Menu color='red'></Menu>
+                <h3 className='font-bold text-2xl'>BatNavBar</h3>
+            </div>
             <ul className='flex justify-evenly'>
                 {
                     urlData.map(route => <Link id={route.id} route={route}></Link>)
