@@ -8,7 +8,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <DaisyNav></DaisyNav>
-      <div className='flex flex-col items-center my-5'>
+      <div className='flex flex-col items-center my-36'>
         <Batman></Batman>
       </div>
 
