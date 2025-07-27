@@ -55,7 +55,7 @@ const NavBar = () => {
 
                 {open ? <X onClick={handleBurger} className='md:hidden' size={40} color='red'></X> : <Menu onClick={handleBurger} className='md:hidden' size={40} color='green'></Menu>}
 
-                <ul className="py-3 pl-5 bg-pink-600  md:hidden">
+                <ul className={`py-3 pl-5 bg-pink-600  md:hidden absolute duration-500 ${open ? "top-10" : "-top-64"}`}>
                     {
                         linkz
                     }
