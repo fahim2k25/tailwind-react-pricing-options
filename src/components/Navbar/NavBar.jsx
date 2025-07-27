@@ -40,6 +40,7 @@ const urlData = [
         path: "/dashboard"
     }
 ];
+const linkz = urlData.map(route => <Link id={route.id} route={route}></Link>);
 
 const NavBar = () => {
 
@@ -49,13 +50,21 @@ const NavBar = () => {
     return (
 
         <nav className="flex justify-between">
+
             <div className='flex gap-2 items-center'>
+
                 {open ? <Menu onClick={handleBurger} className='md:hidden' size={40} color='green'></Menu> : <X onClick={handleBurger} className='md:hidden' size={40} color='red'></X>}
+
+                <ul className="md:hidden">
+                    {
+                        linkz
+                    }
+                </ul>
                 <h3 className='font-bold text-2xl'>BatNavBar</h3>
             </div>
-            <ul className='flex justify-evenly'>
+            <ul className='hidden md:flex md:justify-evenly'>
                 {
-                    urlData.map(route => <Link id={route.id} route={route}></Link>)
+                    linkz
                 }
             </ul>
             <button className='btn btn-lg'>Sign In</button>
