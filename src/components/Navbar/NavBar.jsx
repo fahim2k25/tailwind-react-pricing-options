@@ -53,9 +53,9 @@ const NavBar = () => {
 
             <div className='flex gap-2 items-center'>
 
-                {open ? <Menu onClick={handleBurger} className='md:hidden' size={40} color='green'></Menu> : <X onClick={handleBurger} className='md:hidden' size={40} color='red'></X>}
+                {open ? <X onClick={handleBurger} className='md:hidden' size={40} color='red'></X> : <Menu onClick={handleBurger} className='md:hidden' size={40} color='green'></Menu>}
 
-                <ul className="md:hidden">
+                <ul className="py-3 pl-5 bg-pink-600  md:hidden">
                     {
                         linkz
                     }
