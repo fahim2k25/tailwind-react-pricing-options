@@ -1,0 +1,25 @@
+{
+    "paymentOptions": [
+        {
+            "title": "Batman: Year One",
+            "price": "$9.99",
+            "description": "A gritty origin story of Batman by Frank Miller and David Mazzucchelli.",
+            "image": "https://i.ibb.co/kssjbgpj/images-1.jpg",
+            "purchaseLink": "https://www.dc.com/graphic-novels/batman-year-one"
+        },
+        {
+            "title": "Batman: The Killing Joke",
+            "price": "$12.99",
+            "description": "Alan Moore’s iconic one-shot about Batman and the Joker’s darkest confrontation.",
+            "image": "https://i.ibb.co/Nd028yRq/images.jpg",
+            "purchaseLink": "https://www.dc.com/graphic-novels/batman-the-killing-joke"
+        },
+        {
+            "title": "Batman: The Dark Knight Returns",
+            "price": "$14.99",
+            "description": "Frank Miller’s masterpiece where an aging Bruce Wayne dons the cape once more.",
+            "image": "https://i.ibb.co/FkDRYkSc/l-intro-1660174737.jpg",
+            "purchaseLink": "https://www.dc.com/graphic-novels/batman-the-dark-knight-returns"
+        }
+    ]
+}
