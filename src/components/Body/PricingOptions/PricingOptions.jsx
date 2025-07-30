@@ -7,7 +7,7 @@ const PricingOptions = ({ pricingPromise }) => {
     const { paymentOptions } = paymentData;
 
     return (
-        <div>
+        <div className="flex gap-2 justify-between">
             {paymentOptions.map((elem, index) => <PricingCard key={index} priceCard={elem}></PricingCard>)}
         </div>
     );
