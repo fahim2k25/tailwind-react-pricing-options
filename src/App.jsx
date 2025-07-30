@@ -5,7 +5,7 @@ import PricingOptions from './components/Body/PricingOptions/PricingOptions'
 import DaisyNav from './components/DasiyNav/DaisyNav'
 import NavBar from './components/Navbar/NavBar'
 
-const pricingPromise = fetch('/payment.json').then(res => res.json);
+const pricingPromise = fetch('/payment.json').then(res => res.json());
 
 function App() {
   return (

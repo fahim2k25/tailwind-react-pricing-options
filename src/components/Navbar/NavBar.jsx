@@ -40,7 +40,7 @@ const urlData = [
         path: "/dashboard"
     }
 ];
-const linkz = urlData.map((route, index) => <Link id={index} route={route}></Link>);
+const linkz = urlData.map((route, index) => <Link key={index} route={route}></Link>);
 
 const NavBar = () => {
 
