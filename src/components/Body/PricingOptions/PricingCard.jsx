@@ -6,7 +6,7 @@ const PricingCard = ({ priceCard }) => {
         <div className="card w-96 bg-base-100 shadow-sm">
             <div className="card-body">
                 <span className="badge badge-xs badge-warning">Most Popular</span>
-                <img src={image} alt={description} width="350px" />
+                <img src={image} alt={description} style={{ height: '300px', width: '100%', objectFit: 'cover' }} />
                 <div className="flex justify-between">
                     <h2 className="text-3xl font-bold">{title}</h2>
                     <span className="text-xl">{price}</span>
