@@ -4,8 +4,12 @@ import Batman from './components/Body/Batman'
 import PricingOptions from './components/Body/PricingOptions/PricingOptions'
 import DaisyNav from './components/DasiyNav/DaisyNav'
 import NavBar from './components/Navbar/NavBar'
+import axios from 'axios'
+import BoxofficeChart from './components/boxOfficeCHart/BoxofficeChart'
 
 const pricingPromise = fetch('/payment.json').then(res => res.json());
+const boxOfficePromise = axios.get('/boxoffice.json');
+
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
       </div>
       <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
         <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
+      </Suspense>
+
+      <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+        <BoxofficeChart boxOfficePromise={boxOfficePromise}></BoxofficeChart>
       </Suspense>
 
     </>
