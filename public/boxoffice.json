@@ -1,0 +1,62 @@
+[
+    {
+        "title": "The Dark Knight",
+        "release_year": 2008,
+        "director": "Christopher Nolan",
+        "box_office_worldwide": 1005000000,
+        "imdb_rating": 9.0,
+        "rotten_tomatoes_score": 94,
+        "duration_minutes": 152,
+        "main_villain": "Joker"
+    },
+    {
+        "title": "The Batman",
+        "release_year": 2022,
+        "director": "Matt Reeves",
+        "box_office_worldwide": 772200000,
+        "imdb_rating": 7.8,
+        "rotten_tomatoes_score": 85,
+        "duration_minutes": 176,
+        "main_villain": "The Riddler"
+    },
+    {
+        "title": "Batman v Superman: Dawn of Justice",
+        "release_year": 2016,
+        "director": "Zack Snyder",
+        "box_office_worldwide": 873600000,
+        "imdb_rating": 6.4,
+        "rotten_tomatoes_score": 29,
+        "duration_minutes": 151,
+        "main_villain": "Lex Luthor"
+    },
+    {
+        "title": "Batman Begins",
+        "release_year": 2005,
+        "director": "Christopher Nolan",
+        "box_office_worldwide": 373700000,
+        "imdb_rating": 8.2,
+        "rotten_tomatoes_score": 84,
+        "duration_minutes": 140,
+        "main_villain": "Ra's al Ghul"
+    },
+    {
+        "title": "The Dark Knight Rises",
+        "release_year": 2012,
+        "director": "Christopher Nolan",
+        "box_office_worldwide": 1081000000,
+        "imdb_rating": 8.4,
+        "rotten_tomatoes_score": 87,
+        "duration_minutes": 165,
+        "main_villain": "Bane"
+    },
+    {
+        "title": "Batman (1989)",
+        "release_year": 1989,
+        "director": "Tim Burton",
+        "box_office_worldwide": 411600000,
+        "imdb_rating": 7.5,
+        "rotten_tomatoes_score": 73,
+        "duration_minutes": 126,
+        "main_villain": "Joker"
+    }
+]
