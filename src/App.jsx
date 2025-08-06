@@ -15,8 +15,8 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <DaisyNav></DaisyNav>
-      <div className='flex flex-col items-center my-36'>
+      {/* <DaisyNav></DaisyNav> */}
+      <div className='flex flex-col items-center my-28'>
         <Batman></Batman>
       </div>
       <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
