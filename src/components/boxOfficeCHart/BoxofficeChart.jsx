@@ -17,9 +17,49 @@ const BoxofficeChart = ({ boxOfficePromise }) => {
                         bottom: 5,
                     }}>
 
-                    <Bar dataKey="box_office_worldwide" fill='blue' ></Bar>
-                    <Bar dataKey="imdb_rating" fill='red' ></Bar>
-                    <Bar dataKey="rotten_tomatoes_score" fill='green' ></Bar>
+                    <Bar dataKey="box_office_worldwide" fill="#82ca9d" ></Bar>
+                    <XAxis dataKey="title"></XAxis>
+                    <YAxis></YAxis>
+                    <Legend></Legend>
+                    <CartesianGrid strokeDasharray="3 3" />
+                </BarChart>
+                <BarChart data={boxOfficeData} width={1000} height={800}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}>
+
+                    <Bar dataKey="rotten_tomatoes_score" fill="#8884d8" ></Bar>
+                    <XAxis dataKey="title"></XAxis>
+                    <YAxis></YAxis>
+                    <Legend></Legend>
+                    <CartesianGrid strokeDasharray="3 3" />
+                </BarChart>
+                <BarChart data={boxOfficeData} width={1000} height={800}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}>
+
+                    <Bar dataKey="imdb_rating" fill="#e88b84" ></Bar>
+                    <XAxis dataKey="title"></XAxis>
+                    <YAxis></YAxis>
+                    <Legend></Legend>
+                    <CartesianGrid strokeDasharray="3 3" />
+                </BarChart>
+                <BarChart data={boxOfficeData} width={1000} height={800}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}>
+
+                    <Bar dataKey="duration_minutes" fill="#cd84e8" ></Bar>
                     <XAxis dataKey="title"></XAxis>
                     <YAxis></YAxis>
                     <Legend></Legend>
